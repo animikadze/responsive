@@ -143,8 +143,7 @@ body{
 	background-color: #BDCCD4;
 }
 .section-news{
-	width:1170px;
-	margin:0 auto;
+	
 	padding-bottom: 90px;
 	padding-top: 30px;
 
@@ -245,6 +244,9 @@ body{
 	.blue-bg{
 		display: none;
 	}
-
+   .picture1{
+   	   margin-right: 50px;
+   	   
+   }
 }
 

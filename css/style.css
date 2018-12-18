@@ -36,7 +36,15 @@ body{
 }
 .navigation-li:last-child{
 	margin-right: 0;
+
 }
+.burger{
+	display: none;
+	color:#3D58A6;
+	font-size: 30px;
+	margin-left: 40px;
+}
+
 .social-ul{
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -63,7 +71,7 @@ body{
 	align-items: center;
 	justify-content: center;
 }
-.social-li:last-child::after{
+.active::after{
 	display: none;
 }
 .fa-facebook-f, .fa-google-plus-g {
@@ -211,5 +219,32 @@ body{
 .Typography:hover{
 	border:2px solid #EE4036;
     
+}
+
+@media(max-width: 1024px) {
+	.container{
+		max-width: 768px;
+	}
+	.photo{
+		width:768px;
+	}
+	.burger{
+		display: block;
+
+
+	}
+	.burger::after{
+		display: none;
+	}
+	.navigation{
+		display:none;
+	}
+	.picture1:last-child{
+		display: none;
+	}
+	.blue-bg{
+		display: none;
+	}
+
 }
 
